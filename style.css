@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' Sans-Serif;
+    box-sizing: border-box;
+}
+.container{
+    background: wheat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    margin: 20px 0 30px;
+}
+form{
+    background: white;
+    max-width: 90%;
+    min-height: 50%;
+    border-radius: 10px;
+    padding: 20px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input,
+form textarea{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    color: green;
+    margin: 10px 0 0;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+form textarea{
+    height: 50px;
+}
+button{
+    background: linear-gradient(45deg, yellow, green);
+    width: 150px;
+    height: 40px;
+    padding: 15px auto;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(45deg, green, yellow);
+    transition: .3s ease;
+}
